@@ -8,8 +8,7 @@ from tempfile import NamedTemporaryFile
 import sys
 import requests
 
-import os
-cwd = os.getcwd()
+
 def download_file_from_google_drive(file_id, destination):
     URL = "https://docs.google.com/uc?export=download&confirm=1"
 
