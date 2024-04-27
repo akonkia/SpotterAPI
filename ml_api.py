@@ -22,7 +22,7 @@ class model_input(BaseModel):
 import uuid
 
 #load model
-st = pickle.load(open('prediction_model.sav', 'rb'))
+st = pickle.load(open('prediction_model.sav.zip', 'rb'))
 
 # @app.post('/image_prediction')
 # async def image_pred(file: UploadFile = File()):
