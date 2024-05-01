@@ -1,49 +1,56 @@
-
+annotated-types @ file:///home/conda/feedstock_root/build_artifacts/annotated-types_1696634205638/work
+anyio @ file:///home/conda/feedstock_root/build_artifacts/anyio_1708355285029/work
+Brotli @ file:///Users/runner/miniforge3/conda-bld/brotli-split_1695989838345/work
+certifi @ file:///home/conda/feedstock_root/build_artifacts/certifi_1707022139797/work/certifi
+charset-normalizer @ file:///home/conda/feedstock_root/build_artifacts/charset-normalizer_1698833585322/work
+click @ file:///home/conda/feedstock_root/build_artifacts/click_1692311806742/work
+contourpy==1.2.1
+cycler==0.12.1
 DeepImageSearch==2.5
-
+exceptiongroup @ file:///home/conda/feedstock_root/build_artifacts/exceptiongroup_1704921103267/work
 faiss-cpu==1.8.0
-fastapi 
+fastapi @ file:///home/conda/feedstock_root/build_artifacts/fastapi_1713493610996/work
 filelock==3.13.4
 fonttools==4.51.0
 fsspec==2024.3.1
-
+h11 @ file:///home/conda/feedstock_root/build_artifacts/h11_1664132893548/work
 huggingface-hub==0.22.2
-
+idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1713279365350/work
 Jinja2==3.1.3
-joblib 
+joblib @ file:///home/conda/feedstock_root/build_artifacts/joblib_1712597192451/work
 kiwisolver==1.4.5
 MarkupSafe==2.1.5
 matplotlib==3.8.4
 mpmath==1.3.0
 networkx==3.3
-numpy 
+numpy @ file:///Users/runner/miniforge3/conda-bld/numpy_1707225541074/work/dist/numpy-1.26.4-cp312-cp312-macosx_10_9_x86_64.whl#sha256=c0e7d196d262a4694628c8965da758026291887ae6e907976eece62f7669407b
 packaging==24.0
 pandas==2.2.2
 pillow==10.3.0
-pydantic 
-pydantic_core 
+pydantic @ file:///home/conda/feedstock_root/build_artifacts/pydantic_1713905669586/work
+pydantic_core @ file:///Users/runner/miniforge3/conda-bld/pydantic-core_1713861857318/work
 pyparsing==3.1.2
-PySocks 
+PySocks @ file:///home/conda/feedstock_root/build_artifacts/pysocks_1661604839144/work
 python-dateutil==2.9.0.post0
 python-multipart==0.0.9
 pytz==2024.1
 PyYAML==6.0.1
-requests 
+requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1684774241324/work
 safetensors==0.4.3
-scikit-learn 
-scipy 
+scikit-learn @ file:///Users/runner/miniforge3/conda-bld/scikit-learn_1712824638836/work
+scipy @ file:///Users/runner/miniforge3/conda-bld/scipy-split_1712255280335/work/dist/scipy-1.13.0-cp312-cp312-macosx_10_9_x86_64.whl#sha256=be50160c304fe847a2147a020d503ba81c4d956ef66f158214236f29d3869964
 setuptools==69.5.1
 six==1.16.0
-sniffio 
-starlette 
+sniffio @ file:///home/conda/feedstock_root/build_artifacts/sniffio_1708952932303/work
+starlette @ file:///home/conda/feedstock_root/build_artifacts/starlette-recipe_1709667058396/work
 sympy==1.12
-threadpoolctl 
+threadpoolctl @ file:///home/conda/feedstock_root/build_artifacts/threadpoolctl_1710943558485/work
 timm==0.9.16
 torch==2.2.2
 torchvision==0.17.2
 tqdm==4.66.2
-typing_extensions 
+typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1712329955671/work
 tzdata==2024.1
-urllib3 
-uvicorn 
+urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1708239446578/work
+uvicorn @ file:///Users/runner/miniforge3/conda-bld/uvicorn-split_1710932055756/work
 wheel==0.43.0
