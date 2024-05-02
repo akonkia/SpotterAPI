@@ -1,4 +1,6 @@
-from fastapi import FastAPI, File, UploadFile
+from fastapi import FastAPI, File, UploadFile, HTTPException
+
+from starlette.responses import Response
 from pydantic import BaseModel
 import pickle
 import DeepImageSearch
@@ -36,11 +38,15 @@ input_files = ['model_chunk_0', 'model_chunk_1', 'model_chunk_2',
 output_file = 'prediction_model.sav'  # Name of the concatenated output file
 concatenate_files(input_files, output_file)
 
-# Add a route handler for the root path
-@app.get('/')
-async def root():
-    return {"message": "Welcome to the image prediction API fpr SpotterQuest!"}
+# Add a route handler for HEAD requests to the root URL ("/")
+@app.head("/")
+async def head_root():
+    return Response(status_code=200)
 
+# Add a route handler for GET requests to the root URL ("/")
+@app.get("/")
+async def root():
+    return {"message": "Welcome to the image prediction API for SpotterQuest!"}
 
 @app.post('/image_prediction')
 async def image_pred(file: UploadFile = File(...)):
