@@ -13,4 +13,4 @@ Model for inference could not be uploaded to the repository due to size limit. T
 
 For simplicity, the resulting model file can be accessed directly and the steps to concatenate removed.
 
-Checking for similar images requires a new image is added to the index. To avoid problems arising with time, e.g. multiple queries adding the same image to index, a fresh copy of the model and index is loaded before inference.
+Checking for similar images requires a new image being added to the index. To avoid problems arising with time, e.g. multiple queries adding the same image to index, a fresh copy of the model and index is loaded before inference.
