@@ -36,7 +36,12 @@ input_files = ['model_chunk_0', 'model_chunk_1', 'model_chunk_2',
 output_file = 'prediction_model.sav'  # Name of the concatenated output file
 concatenate_files(input_files, output_file)
 
-import os
+# Add a route handler for the root path
+@app.get('/')
+async def root():
+    return {"message": "Welcome to the image prediction API fpr SpotterQuest!"}
+
+
 @app.post('/image_prediction')
 async def image_pred(file: UploadFile = File(...)):
     #get the clean index, without newly added features from parsed files
