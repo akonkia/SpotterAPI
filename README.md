@@ -6,6 +6,7 @@ See Jupyter notebook for a visual example of the process of finding similar imag
 Use requirements file to build the environment.
 
 File ml_api.py contains all elements to run a fastapi server. Start the server with: uvicorn ml_api:app
+
 File api_implementation.py takes in a filename (path) as argument and send it to the uvicorn service.
 
 Model for inference could not be uploaded to the repository due to size limit. Therefore, it was cut into parts and is re-created with ml_api.py. 
